@@ -10,7 +10,8 @@
 	}
 	.signup-bt {
 	    margin: 8px auto;
-	    width: 43%;
+	    width: 45%;
+	    padding: 6px 10px 6px 16px; 
 	}
 	.banner-section {
 	    padding: 50px 0 75px;
@@ -150,9 +151,6 @@
 	}
 	.screen-dot {
 	    margin-bottom: 0px;
-	}
-	.slick-list .draggable{
-		padding: 87px 10px 0 !important;
 	}
 	.center img {
 	    width: 150px;
