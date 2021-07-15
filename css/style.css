@@ -1,0 +1,893 @@
+/* Google Fonts Open Sans + Raleway */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Global CSS */
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #525151;
+}
+h1, h2{
+	font-family: 'Open Sans', sans-serif;
+}
+h3, h4, h5, h6{
+	font-family: 'Raleway', sans-serif;
+}
+ul{
+	padding: 0;
+}
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+
+/*=========
+ Header CSS
+=========*/
+header{
+	border-bottom: 3px solid #0096ff;
+}
+.navbar{
+	padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #3f3f3f;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 17px 10px 16px;
+    margin: 0 15px;
+}
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+    background: #0096ff;
+}
+.navbar-light .navbar-nav .nav-link.active:hover, 
+.navbar-light .navbar-nav .show>.nav-link:hover {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #0096ff;
+}
+.signup-bt{
+	position: relative;
+	display: block;
+	overflow: hidden;
+    margin-top: 8px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #00c9b7;
+    border: 3px solid #00c9b7;
+    padding: 6px 10px;
+    z-index: 1;
+}
+.signup-bt::after{
+	content: "";
+	position: absolute;
+	left: -100%;
+	top: 0;
+	background: #00c9b7;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+.signup-bt:hover::after{
+	left: 0%;
+	transition: 0.3s ease-in-out;
+}
+.signup-bt:hover{
+	color: #fff;
+}
+
+
+/*=========
+ Banner CSS
+=========*/
+.banner-section{
+	background: url(../img/banner-bg-wopa.png) no-repeat center top;
+	background-size: cover;
+	padding: 100px 0 150px;
+	position: relative;
+	z-index: 1;
+}
+.banner-section::after{
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 150, 255, 0.3);
+	z-index: -1;
+}
+.banner-section h1{
+    margin-right: 27px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.banner-section h1 span{
+	color: #f08200;
+}
+.banner-section p{
+	color: #fff;
+    letter-spacing: 1px;
+    margin: 25px 0 25px;
+    font-family: 'Raleway', sans-serif;
+}
+.banner-section ul li{
+    display: inline;
+    margin-right: 25px;
+}
+
+
+/*==========
+ Feature CSS
+==========*/
+.feature-section{
+	text-align: center;
+	margin-top: -74px;
+	background: #f7fcff;
+	margin-bottom: -94px;
+}
+.feature-section p{
+	padding: 20px 0;
+	margin: 0 auto;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid #e4e5e5; 
+    width: 85.3%;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+.features{
+	padding: 20px 0;
+	margin: 0;
+    background: #f7fcff;
+}
+.features ul li .fa{
+	font-size: 30px;
+    color: #0096ff;
+    border: 2px solid #0096ff;
+    width: 60px;
+    height: 60px;
+    line-height: 57px;
+    border-radius: 50px;
+}
+.features ul li:hover .fa{
+	background: #0096ff;
+	color: #fff;
+}
+.feature-section h4{
+	font-size: 16px;
+    font-weight: 600;
+}
+.feature-button{
+	padding: 20px 0;
+    border: 2px solid #e4e5e5;
+    width: 85.3%;
+    margin: 0 auto;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-bt{
+	border: 2px solid #0096ff;
+    background: #fff;
+    color: #0096ff;
+    padding: 8px 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.feature-bt:hover{
+	background: #0096ff;
+	color: #fff;
+}
+.features:hover{
+	color: #0096ff;	
+}
+.feature-bt i{
+	font-size: 25px;
+    margin: 7px 0 0 13px;
+}
+
+
+/*========
+ Video CSS
+========*/
+.videocall-section{
+	background: #0096ff;
+	padding: 140px 0 0;
+}
+.videocall-content{
+	margin-top: 76px;
+}
+.videocall-section h6{
+	color: #fff;
+    font-weight: 600;
+}
+.videocall-section h3{
+    padding: 10px 0 10px;
+    color: #fff;
+}
+.videocall-section p{
+    text-align: justify;
+    color: #fff;
+    word-spacing: -3px;
+    font-size: 15px;
+}
+.videocall-section .video-bt{
+	border: 2px solid #0096ff;
+    background: #fff;
+    color: #0096ff;
+    padding: 8px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.videocall-section .video-bt:hover{
+	background: #0096ff;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+
+/*===============
+Char. Section CSS
+===============*/
+.char-section{
+    padding: 100px 0 0;
+    border-bottom: 3px solid #0096ff;   
+}
+.char-section h1{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    color: #a4a4a4;
+}
+.char-section .hd-separtor{
+    background: #0096ff;
+    width: 60px;
+    height: 2px;
+    margin: 10px auto;
+}
+.char-section p{
+    text-align: center;
+    font-size: 16px;
+    color: #a4a4a4;
+    margin: 0 181px;
+}
+.char-content{
+	margin-top: 100px;
+}
+.left-content{
+    margin-top: 45px;
+}
+.left-content h6{
+    text-align: right;
+    color: #a4a4a4;
+    font-weight: 600;
+}
+.left-content p{
+	margin: 0 0 70px;
+	text-align: right;
+}
+.char-section img{
+    margin-left: 13px;
+}
+.right-content{
+	margin-top: 45px;
+}
+.right-content h6{
+	text-align: left;
+    color: #a4a4a4;
+    font-weight: 600;
+}
+.right-content p{
+	margin: 0 0 70px;
+	text-align: left;
+}
+.char-section ul li .fa{
+	font-size: 30px;
+    color: #0096ff;
+    border: 2px solid #0096ff;
+    width: 70px;
+    height: 70px;
+    line-height: 67px;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    text-align: center;
+}
+.char-section ul li .fa:hover{
+	background: #0096ff;
+	color: #fff;
+}
+.char-section h6:hover{
+	color: #0096ff;
+}
+.hover-color:hover h6{
+    color: #0096ff;
+}
+
+
+
+/*==================
+Download Section CSS
+==================*/
+.download-section{
+    position: relative;
+	background: #edf7fe;
+	text-align: center;
+	padding: 50px 0;
+    z-index: 1;
+}
+.download-content::after{
+    content: "";
+    position: absolute;
+    background: #fff;
+    left: -30px;
+    top: 53px;
+    width: 102%;
+    height: 60%;
+    z-index: -1;
+}
+.download-content h3{
+	padding: 30px 0 20px;
+}
+.download-bt ul li .fa-download{
+	border: none;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 0px;
+    line-height: 0px;
+    color: #fff;
+}
+.download-bt ul li a{
+	color: #fff;
+	font-size: 600;
+}
+.download-bt{
+	background: #0096ff;
+    width: 12%;
+    height: 68%;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 2px solid #0066ad;
+}
+.btn{
+    margin-bottom: 20px;
+}
+
+
+/*===========
+ Browsing CSS
+===========*/
+.browsing-section{
+	padding: 100px 0 50px;
+}
+.browsing-content{
+	margin-top: 105px;
+}
+.browsing-section h6{
+	color: #696969;
+    font-weight: 600;
+}
+.browsing-section h6 span{
+	color: #0096ff;
+    font-weight: 800;
+}
+.browsing-section h3{
+    padding: 10px 170px 10px 0;
+    color: #525151;
+}
+.browsing-section p{
+    text-align: justify;
+    color: #888686;
+    font-size: 15px;
+}
+.browsing-section .browsing-bt{
+	border: 2px solid #0096ff;
+    background: #fff;
+    color: #0096ff;
+    padding: 8px 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.browsing-section .browsing-bt:hover{
+	background: #0096ff;
+	color: #fff;
+	border: 2px solid #fff;
+}
+
+
+/*================
+Slider Section CSS
+================*/
+.slider-section{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.slider-section h2{
+    color: #3e3e3e;
+    margin: 0;
+    font-weight: 600;
+}
+.screen-dot{
+    margin-bottom: 50px;
+}
+.center img{
+    width: 200px;
+    height: auto;
+}
+.center .slick-slide img{
+    transform:scale(0.9);
+    opacity: 0.3;
+}
+.center .slick-center img{
+    transform: scale(1.1);
+    margin-top: -35px;
+    opacity: 1;
+}
+.slick-list {
+    padding-top: 87px !important;
+}
+.slick-prev:before, .slick-next:before{
+    color: #0096ff;
+}
+.slick-prev:before, .slick-next:before{
+    border: 2px solid #b7b7b7;
+    margin: 0 40px 0 0;
+    background: #0096ff;
+    color: #fff;
+}
+
+
+/*===================
+Counterup Section CSS
+===================*/
+.counterup-section{
+    background: #0096ff;
+    padding: 50px 0;
+}
+.counter-image .fa{
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+}
+.counter-content{
+    margin-top: 5px;
+    color: #fff;
+}
+.counter-content h5{ 
+    font-size: 12px;
+}
+
+
+/*===============
+Blog Section CSS
+===============*/
+.blog-section{
+    padding: 100px 0;
+    background: #edf7fe;
+}
+.blog-section h1{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    color: #a4a4a4;
+}
+.blog-section .hd-separtor{
+    background: #0096ff;
+    width: 60px;
+    height: 2px;
+    margin: 10px auto;
+}
+.blog-section p{
+    text-align: center;
+    font-size: 16px;
+    color: #a4a4a4;
+    margin: 0 181px 150px;
+}
+.widget-one{
+    text-align: center;
+    background: #fff;
+    padding: 20px 20px 70px;
+    border: 1px solid #dbdbdb;
+    border-top: 3px solid #0096ff;
+}
+.user-image{
+    border: 5px solid #edf7fe;
+    border-radius: 50%;
+    margin-top: -94px;
+}
+.widget-one h1{
+    margin: 20px 0;
+    color: #ff9600;
+    font-weight: 600;
+}
+.widget-one h2{
+    margin: 20px 0;
+    font-weight: 600;
+}
+.widget-one .fa-quote-left{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ff9600;
+}
+.blog-section .widget-one p{
+    margin: 0;
+    color: #6a6a6a;
+    font-weight: 600;
+    text-align: justify;
+}
+.blog-section .widget-two{
+    position: relative;
+    background: url(../img/widget-two.png) no-repeat center;
+    background-size: cover;
+    margin: 50px 0;
+    z-index: 1;
+    padding: 20px;
+    border: 1px solid #dbdbdb;
+}
+.widget-two::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 150, 255, 0.95);
+    z-index: -1;
+}
+.blog-section .widget-two p{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    padding: 0 2px 20px;
+}
+.readmore-bt{
+    margin: 0 auto;
+    display: block;
+    color: #0096ff;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+.widget-three{
+    background: #fff;
+    border: 1px solid #dbdbdb;
+}
+.three-bac{
+    position: relative;
+    background: url(../img/widget-three.png) no-repeat center;
+    background-size: cover;
+    z-index: 1;
+}
+.three-bac::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 150, 255, 0.85);
+    z-index: -1;
+}
+.three-bac a{
+    text-align: center;
+    display: block;
+    padding: 40px 0;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.widget-content{
+    padding-top: 20px; 
+    margin: 0;
+}
+.blog-section .three-content p{
+    margin: 0;
+    padding: 20px 15px;
+    text-align: justify;
+    font-size: 15px;
+}
+.read-link a{
+    display: block;
+    background: #f8f8f8;
+    height: 80px;
+    width: 130px;
+    text-align: center;
+    border-bottom: 3px solid #0096ff;
+    font-weight: 600;
+    padding: 10px 5px 0;
+}
+.read-link .fa{
+    font-size: 19px;
+    font-weight: 600;
+    padding: 5px;
+}
+.widget-icons{
+    margin-top: 10px;
+}
+.widget-icons ul li{
+    display: inline;
+}
+.widget-icons .fa{
+    margin: 0 0 0 43px;
+    color: #a2a2a2;
+    font-size: 24px;
+}
+.widget-icons .fa:hover{
+    color: #0096ff;
+    transform: scale(1.5);
+}
+
+
+/*==================
+Blog-one Section CSS
+==================*/
+.blog-one{
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-top: 4px solid #0096ff;
+    margin-top: -73px;
+}
+.blog-one h1{
+    text-align: left;
+    padding: 15px;
+    color: #282828;
+    font-weight: 600;
+}
+.blog-one img{
+    transition: 0.3s ease-in-out;
+}
+.blog-one img:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+}
+.blog-section .blog-one p{
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+    color: #505050;
+    font-weight: 600;
+}
+.blog-content .read-link a{
+    display: block;
+    background: #f8f8f8;
+    height: 80px;
+    width: 130px;
+    text-align: center;
+    border-bottom: 3px solid #0096ff;
+    font-weight: 600;
+    padding: 10px 5px 0;
+    margin: 0 20px;
+}
+.blog-icons ul li{
+    display: inline;
+}
+.blog-content .read-link .fa{
+    font-size: 19px;
+    font-weight: 600;
+    padding: 5px;
+}
+.blog-icons{
+    margin-top: 13px;
+}
+.blog-icons .fa{
+    margin: 0 0 0 127px;
+    color: #a2a2a2;
+    font-size: 24px;
+}
+.blog-icons .fa:hover{
+    color: #0096ff;
+    transform: scale(1.5);
+}
+
+
+/*==================
+Blog-two Section CSS
+==================*/
+.blog-two{
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    border-top: 4px solid #0096ff;
+    margin-top: 50px;
+}
+.blog-two h1{
+    text-align: left;
+    padding: 15px;
+    color: #282828;
+    font-weight: 600;
+}
+.two-bac{
+    background: url(../img/blog-two.png) no-repeat center;
+    background-size: cover;
+    padding: 100px 20px;
+    margin-bottom: 49px;
+}
+.blog-two .bloger-image{
+    width: 93%;
+    height: 40%;
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s ease-in-out;
+}
+.blog-two .bloger-image:hover{
+    transform: scale(1.07);
+    transition: 0.3s ease-in-out;
+}
+
+
+/*=================
+Contact Section CSS
+=================*/
+.contact-section{
+    padding: 100px 0;
+    background: url(../img/contact-bg.png) no-repeat center top;
+    background-size: cover;
+}
+.contact-section h1{
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    color: #a4a4a4;
+}
+.contact-section .hd-separtor{
+    background: #0096ff;
+    width: 60px;
+    height: 2px;
+    margin: 10px auto;
+}
+.contact-section p{
+    text-align: center;
+    font-size: 16px;
+    color: #a4a4a4;
+    margin: 0 181px 50px;
+}
+.contact-box{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0 20px 40px;
+    text-align: center;
+}
+.hd-separtor-top{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: 3px;
+    background: #177ec5;
+}
+.contact-box h3{
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+    padding: 30px 0;
+}
+.contact-social ul{
+    padding-bottom: 30px;
+    margin: 0;
+}
+.contact-social ul li{
+    display: inline;
+}
+.contact-social .fa{
+    color: #000;
+    font-size: 30px;
+    padding: 0 10px;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50px;
+    margin: 0 5px;
+    transition: 0.3s ease-in-out;
+}
+.contact-social .fa:hover{
+    background: #0096ff;
+    transform: scale(1.05);
+}
+.contact-box p{
+    margin: 0;
+    font-size: 15px;
+    color: #7a7b7b;
+}
+.contact-box .hd-separtor{
+    background: #0096ff;
+    width: 20%;
+    height: 3px;
+    margin: 40px auto;
+}
+.address-box ul li{
+    color: #7a7b7b;
+    padding: 0 0 10px;
+}
+.message-box{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0 20px 40px;
+}
+.hd-separtor-top{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    height: 3px;
+    background: #177ec5;
+}
+.message-box h3{
+    margin: 0;
+    color: #fff;
+    font-weight: 600;
+    padding: 30px 0;
+    text-align: center;
+}
+.input-field .form-control{
+    color: #bcbcbc;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    background: #000;
+    border: 2px solid #0096ff;
+    border-left: 4px solid #0096ff;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+textarea{
+    color: #bcbcbc;
+    padding: 10px 20px;
+    font-weight: 600;
+    margin-bottom: 35px;
+    background: #000;
+    border: 2px solid #0096ff;
+    border-left: 4px solid #0096ff;
+    width: 100%;
+}
+textarea:focus-visible{
+    outline: none;
+}
+.message-bt{
+    padding: 10px 20px;
+    border: 3px solid #0096ff;
+    background: #0096ff;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.message-bt:hover{
+    background: #000;
+}
+
+
+/*================
+Footer Section CSS
+================*/
+.footer-section{
+    padding: 0 0 30px;
+    background: #0b0d1b;
+    text-align: center;
+}
+.footer-section .fa{
+    color: #fff;
+    background: #0096ff;
+    width: 23px;
+    font-size: 25px;
+}
+.footer-section img{
+    width: 20%;
+    height: auto;
+}
+.footer-section p{
+    color: #6e6e70;
+    font-weight: 600;
+    font-size: 13px;
+    padding-top: 30px;
+    margin: 0;
+}

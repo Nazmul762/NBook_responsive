@@ -1,0 +1,228 @@
+@media (min-width: 320px) and (max-width: 575px){
+	.navbar-light .navbar-nav .nav-link.active, 
+	.navbar-light .navbar-nav .show>.nav-link {
+	    width: 30%;
+	    display: block;
+	    margin: 0 auto;
+	}
+	.navbar-light .navbar-nav .nav-link {
+	    text-align: center;
+	}
+	.signup-bt {
+	    margin: 8px auto;
+	    width: 43%;
+	}
+	.banner-section {
+	    padding: 50px 0 75px;
+	}
+	.banner-section h1 {
+	    text-align: center;
+	    margin-right: 0;
+	}
+	.banner-section p {
+	    text-align: center;
+	    margin: 15px 0;
+	}
+	.banner-section img{
+		display: block;
+	    margin: 0 auto;
+	    width: 50%;
+	    height: 45px;
+	}
+	.features ul li .fa {
+	    font-size: 20px;
+	    width: 40px;
+	    height: 40px;
+	    line-height: 37px;
+	}
+	.feature-section p {
+	    padding: 10px;
+	    margin: 34px auto 0;
+	    font-size: 16px;
+	}
+	.feature-section h4 {
+	    font-size: 13px;
+	    margin: 0;
+	}
+	.feature-button {
+	    padding: 23px 0;
+	}
+	.feature-bt {
+	    padding: 8px 17px;
+	    font-size: 16px;
+	}
+	.videocall-section {
+	    padding: 90px 0 0;
+	    text-align: center;
+	}
+	.videocall-section h3 {
+	    font-size: 16px;
+	}
+	.videocall-section p {
+	    text-align: center;
+	    word-spacing: 0px;
+	}
+	.videocall-section .video-bt {
+	    font-size: 16px;
+	    margin-top: 10px;
+	}
+	.char-section {
+	    padding: 50px 0;
+	}
+	.char-section h1 {
+	    font-size: 22px;
+	}
+	.char-section .hd-separtor {
+	    margin: 10px auto 5px;
+	}
+	.char-section p {
+	    margin: 0;
+	}
+	.char-content {
+	    margin-top: 0px;
+	}
+	.char-section ul li .fa {
+	    font-size: 20px;
+	    width: 40px;
+	    height: 40px;
+	    line-height: 37px;
+	    margin-top: 20px;
+	}
+	.left-content {
+	    margin-top: 35px;
+	}
+	.left-content h6 {
+	    font-size: 16px;
+	}
+	.left-content p{
+		margin-bottom: 25px;
+	}
+	.char-section img {
+	    margin: 0 auto;
+	    display: block;
+	    width: 65%;
+	    height: 100%;
+	}
+	.right-content h6 {
+	    font-size: 16px;
+	}
+	.right-content p{
+		margin-bottom: 25px;
+	}
+	.right-content ul li .fa{
+		margin-left: 35px;
+	}
+	.download-section {
+	    padding: 20px 0;
+	}
+	.download-content h3 {
+	    padding: 20px 0 0px;
+	    font-size: 20px;
+	}
+	.download-bt ul li a {
+	    margin-left: 10px;
+	}
+	.download-bt ul li .fa-download {
+	    padding: 0 0 0 6px;
+	}
+	.download-bt {
+	    width: 41%;
+	    height: 68%;
+	}
+	.download-content::after {
+	    width: 107%;
+	    height: 59%;
+	    top: 30px;
+	}
+	.browsing-section {
+	    padding: 50px 0;
+	    text-align: center;
+	}
+	.browsing-section h3 {
+	    padding: 0;
+	    font-size: 20px;
+	}
+	.browsing-content {
+	    margin-top: 50px;
+	}
+	.browsing-section .browsing-bt {
+	    font-size: 16px;
+	}
+	.screen-dot {
+	    margin-bottom: 0px;
+	}
+	.slick-list .draggable{
+		padding: 87px 10px 0 !important;
+	}
+	.center img {
+	    width: 150px;
+	    height: auto;
+	}
+	.counterup-section {
+	    padding: 25px 0;
+	}
+	.counter-image .fa {
+	    font-size: 20px;
+    	margin-top: 6px;
+	}
+	.counter-content {
+	    margin-top: 1px;
+    	padding-left: 5px;
+	}
+	.counter-content h3{
+	    font-size: 16px;
+	    margin: 0 0 0 5px;
+	}
+	.counter-content h5 {
+	    font-size: 10px;
+	}
+	.blog-section {
+	    padding: 50px 0;
+	}
+	.blog-section p {
+	    margin: 0 0px 100px;
+	}
+	.widget-content {
+	    padding-top: 0px;
+	}
+	.widget-three {
+	    margin-bottom: 125px;
+	}
+	.blog-one h1 {
+	    text-align: center;
+	}
+	.blog-icons .fa {
+	    margin: 0 0 0 48px;
+	}
+	.two-bac {
+	    padding: 50px 10px;
+	    margin-bottom: 20px;
+	}
+	.blog-content .read-link a {
+	    height: 73px;
+	}
+	.contact-section {
+	    padding: 50px 0;
+	}
+	.contact-section p {
+	    margin: 0 0px 25px;
+	}
+	.contact-social .fa {
+	    font-size: 25px;
+	    padding: 0 7px;
+	    width: 40px;
+	    height: 40px;
+	    line-height: 42px;
+	}
+	.message-bt {
+	    display: block;
+	    margin: 0 auto;
+	}
+	.footer-section img {
+	    width: 40%;
+	    height: auto;
+	}
+	.footer-section p {
+	    padding-top: 20px;
+	}
+}
